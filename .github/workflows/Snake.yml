@@ -42,8 +42,8 @@ jobs:
     # Adds and commits the files
       - name: Commit files
         run: |
-          git config --local user.email "pragatiregmi101@gmail.com
-          git config --local user.name "pragatiregmi10
+          git config --local user.email "pragatiregmi101@gmail.com"
+          git config --local user.name "pragatiregmi10"
           git status
           git add .
           git commit -m "Created snake gif and svg"
